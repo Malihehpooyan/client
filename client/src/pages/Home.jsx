@@ -8,11 +8,11 @@ import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 import bikeData from "../assets/data/bikeData";
 import BikeItem from "../components/UI/BikeItem";
-
 import Testimonial from "../components/UI/Testimonial";
 import BlogList from "../components/UI/BlogList";
 import PaymentMethod from "../components/UI/PaymentMethod";
 import BookingForm from "../components/UI/BookingForm";
+
 
 
 const Home = () => {
@@ -70,40 +70,21 @@ const Home = () => {
               <BikeItem item={item} key={item.id} />
             ))}
           </Row>
-        </Container>
-
-
-        <section className="become__driver">
-      <Container>
-        <Row>
-          <Col lg="6" md="6" sm="12" >
-          </Col>
-        </Row>
-      </Container>
-    </section>
+       
 
       <BookingForm />
 
-
-   
-      <section>
-        <Container>
+        
           <Row>
             <Col lg="12" className="text-center mb-5">
              
             </Col>
           </Row>
-        </Container>
-      </section>
+      
 
       <PaymentMethod />
-
-
-
+      </Container>
       </section>
-
-
-
 
       {/*  testimonial section  */}
       <section>

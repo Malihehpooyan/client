@@ -3,6 +3,7 @@ import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/bike-item.css";
 
+
 const BikeItem = (props) => {
   const { imgUrl, model, bikeName, automatic, speed, price } = props.item;
 
