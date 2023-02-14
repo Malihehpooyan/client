@@ -35,7 +35,7 @@ const FindBikeForm = () => {
         </FormGroup>
 
         <FormGroup className="form__group">
-          <button className="btn find__bikes-btn">Find Bike</button>
+          <button className="btn find__bike-btn">Find Bike</button>
         </FormGroup>
       </div>
     </Form>

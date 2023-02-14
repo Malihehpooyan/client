@@ -31,8 +31,6 @@ const HeroSlider = () => {
             </Container>
           </div>
 
-
-
           <div className="slider__item slider__item-02 mt0">
         <Container>
           <div className="slider__content ">

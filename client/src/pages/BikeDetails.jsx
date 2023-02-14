@@ -10,7 +10,7 @@ import PaymentMethod from "../components/UI/PaymentMethod";
 const BikeDetails = () => {
   const { slug } = useParams();
 
-  const singleBikeItem = bikeData.find((item) => item.BikeName === slug);
+  const singleBikeItem = bikeData.find((item) => item.bikeName === slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -113,6 +113,11 @@ const BikeDetails = () => {
                 <BookingForm />
               </div>
             </Col>
+
+
+
+
+
 
             <Col lg="5" className="mt-5">
               <div className="payment__info mt-5">

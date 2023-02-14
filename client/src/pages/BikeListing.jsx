@@ -21,8 +21,8 @@ const BikeListing = () => {
 
                 <select>
                   <option>Select</option>
-                  <option value="electric">Electric to Hybrid</option>
-                  <option value="hybrid">Hybrid to Electric</option>
+                  <option value="electric">Electric</option>
+                  <option value="hybrid">Hybrid</option>
                 </select>
               </div>
             </Col>

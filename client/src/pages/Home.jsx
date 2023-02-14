@@ -6,8 +6,13 @@ import { Container, Row, Col } from "reactstrap";
 import FindBikeForm from "../components/UI/FindBikeForm";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
+import bikeData from "../assets/data/bikeData";
+import BikeItem from "../components/UI/BikeItem";
+
 import Testimonial from "../components/UI/Testimonial";
 import BlogList from "../components/UI/BlogList";
+import PaymentMethod from "../components/UI/PaymentMethod";
+import BookingForm from "../components/UI/BookingForm";
 
 
 const Home = () => {
@@ -50,6 +55,54 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+
+ {/* =========== bike offer section ============= */}
+ <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center mb-5">
+              <h2 className="section__subtitle">Our Bikes</h2>
+              
+            </Col>
+
+            {bikeData.slice(0, 6).map((item) => (
+              <BikeItem item={item} key={item.id} />
+            ))}
+          </Row>
+        </Container>
+
+
+        <section className="become__driver">
+      <Container>
+        <Row>
+          <Col lg="6" md="6" sm="12" >
+          </Col>
+        </Row>
+      </Container>
+    </section>
+
+      <BookingForm />
+
+
+   
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center mb-5">
+             
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <PaymentMethod />
+
+
+
+      </section>
+
+
 
 
       {/*  testimonial section  */}

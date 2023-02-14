@@ -1,6 +1,7 @@
 .single__member {
     border: 1px solid #0f4f03;
     border-radius: 4px;
+    margin-top: 20px;
   }
   
   .single__member-social {

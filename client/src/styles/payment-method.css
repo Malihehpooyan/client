@@ -1,0 +1,20 @@
+
+
+  .payment {
+    display: flex;
+    align-items: center;
+    }
+    
+    .payment label {
+    margin-bottom: 0;
+    }
+    
+    .payment input[type="radio"] {
+    margin-right: 8px;
+    }
+    
+    @media (max-width: 767px) {
+    .payment {
+    flex-direction: column;
+    }
+    }
