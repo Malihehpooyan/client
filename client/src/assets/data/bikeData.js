@@ -1,5 +1,5 @@
 import img01 from "../all-images/bikes-img/img01.png";
-import img02 from "../all-images/bikes-img/img02.png";
+import img02 from "../all-images/bikes-img/img04.png";
 import img03 from "../all-images/bikes-img/img12.png";
 const bikeData = [
   {
@@ -36,7 +36,7 @@ const bikeData = [
     id: 3,
     brand: "Mongoose Mushaboom",
     rating: 132,
-    bikeName: "BMW Fat Tire Mountain",
+    bikeName: "Fat Tire Mountain",
     imgUrl: img03,
     model: "Model-2022",
     size: [24, 26, 28],

@@ -1,16 +1,29 @@
 import React from "react";
 import "../../styles/booking-form.css";
 import { Form, FormGroup } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 const BookingForm = () => {
   const submitHandler = (event) => {
     event.preventDefault();
   };
 
-
-
-  
   return (
+
+    <section className="booking__form">
+      <Container>
+        <Row>
+
+          <Col lg="6" md="6" sm="12">
+            <h2 className="section__title booking__form-title">
+              Do You Want to rent a bike? 
+            </h2>
+            <button className="btn  mt-4">
+              click here!
+            </button>
+          </Col>
+        </Row>
+     
     <Form onSubmit={submitHandler}>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <input type="text" placeholder="First Name" />
@@ -53,7 +66,6 @@ const BookingForm = () => {
           className="time__picker"
         />
       </FormGroup>
-
       <FormGroup>
         <textarea
           rows={5}
@@ -63,6 +75,9 @@ const BookingForm = () => {
         ></textarea>
       </FormGroup>
     </Form>
+    </Container>
+    </section>
+
   );
 };
 
