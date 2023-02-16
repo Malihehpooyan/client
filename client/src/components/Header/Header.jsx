@@ -33,6 +33,9 @@ const navLinks = [
     const menuRef = useRef(null);
   
     const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
+
+
+    
     return (
     <header className="header">
 

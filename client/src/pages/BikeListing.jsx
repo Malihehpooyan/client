@@ -23,6 +23,7 @@ const BikeListing = () => {
                   <option>Select</option>
                   <option value="electric">Electric</option>
                   <option value="hybrid">Hybrid</option>
+                  <option value="mountain">Mountain</option>
                 </select>
               </div>
             </Col>

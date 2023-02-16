@@ -17,7 +17,7 @@ const BikeItem = (props) => {
         <div className="bike__item-content mt-4">
           <h4 className="section__title text-center">{bikeName}</h4>
           <h6 className="rent__price text-center mt-">
-            ${price}.00 <span>/ Day</span>
+            ${price}20 <span>/ Day</span>
           </h6>
 
           <div className="bike__item-info d-flex align-items-center justify-content-between mt-3 mb-4">
