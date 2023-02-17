@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { onRegistration } from '../api/auth';
 
-const RegistrationForm = () => {
+const SignUp = () => {
   const [values, setValues] = useState({
     email: '',
     password: ''
@@ -73,4 +73,4 @@ const RegistrationForm = () => {
   );
 };
 
-export default RegistrationForm;
+export default SignUp;

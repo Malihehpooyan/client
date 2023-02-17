@@ -56,7 +56,7 @@ const navLinks = [
                 <i class="ri-login-circle-fill"></i> Login</Link>
 
 
-                <Link to="/register" className=" d-flex align-items-center gap-1">
+                <Link to="/signup" className=" d-flex align-items-center gap-1">
                 <i class="ri-user-fill"></i> SignUp</Link>
               </div>
             </Col>

@@ -129,11 +129,11 @@
   }
   
   .nav__item:hover {
-    color: #be8d3e;
+    color: #928d2f;
   }
   
   .search__box {
-    border: 1px solid #7c8a972f;
+    border: 1px solid #37a0222f;
     padding: 7px 12px;
     display: flex;
     align-items: center;
@@ -159,8 +159,9 @@
   }
   
   .nav__active {
-    color: #c7861c;
+    color: #be8d3e;
   }
+  
   
   @media only screen and (max-width: 768px) {
     .header__top,

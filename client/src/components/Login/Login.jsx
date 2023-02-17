@@ -37,7 +37,7 @@ const Login = () => {
             <Button type="submit" color="primary" block>Login</Button>
           </Form>
           <div className="mt-2 text-center">
-            Don't have an account? <Link to="/signup">Sign Up</Link>
+            Don't have an account? <Link to="/Signup">Sign Up</Link>
           </div>
         </Col>
       </Row>
