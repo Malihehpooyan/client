@@ -1,10 +1,10 @@
 .signup-container {
-  background: #d6d9d6;
+  background: #f5f7f5;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 10px 10px;
+  min-height: 100vh;
+  margin: 10px;
   border-radius: 1rem;
 }
 
@@ -60,9 +60,9 @@
 @media only screen and (max-width: 768px) {
   .signup-form {
     width: 100%;
+    padding: 20px;
   }
-  .signup__btn {
-    margin-bottom: 40px;
-    font-size: 0.8rem;
+  .signup-form button {
+    margin-bottom: 20px;
   }
 }
