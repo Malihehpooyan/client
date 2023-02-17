@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from 'reactstrap';
-import '../styles/sign-Up.css';
+import '../styles/signup.css';
 
-const SignUp = () => {
+const Signup = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -77,5 +77,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
-
+export default Signup;

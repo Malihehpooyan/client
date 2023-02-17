@@ -8,11 +8,11 @@ const FindBikeForm = () => {
     <Form className="form">
       <div className=" d-flex align-items-center justify-content-between flex-wrap">
         <FormGroup className="form__group">
-          <input type="text" placeholder="From address" required />
+          <input type="text" placeholder="From (address)" required />
         </FormGroup>
 
         <FormGroup className="form__group">
-          <input type="text" placeholder="To address" required />
+          <input type="text" placeholder="To (address)" required />
         </FormGroup>
 
         <FormGroup className="form__group">

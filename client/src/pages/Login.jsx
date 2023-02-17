@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from 'reactstrap';
-import '../styles/login.css';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -19,7 +18,6 @@ const Login = () => {
     event.preventDefault();
     // You can add your login logic here
   }
-
   return (
     <Container className="login-container">
       <Row className="justify-content-center">

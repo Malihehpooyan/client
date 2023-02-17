@@ -71,14 +71,17 @@
     margin-right: 0.8rem;
     color: #7c8a97;
   }
-  
   .find__bikes-btn {
-    background: #0f3917 !important;
-    color: #fff !important;
+    background: #7c8a972a !important;
+    color: #fff;
     padding: 8px 15px;
     width: 100%;
     border: none;
     outline: none;
+}
+  
+  .find__bikes-btn button:hover {
+    background-color: #6e6e17;
   }
   
   @media only screen and (max-width: 992px) {
