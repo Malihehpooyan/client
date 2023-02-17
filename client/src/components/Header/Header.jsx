@@ -57,11 +57,10 @@ const navLinks = [
 
 
              <Link to="/login" className=" d-flex align-items-center gap-1">
-  <i class="ri-login-circle-fill"></i> Login
-</Link>
+                <i class="ri-login-circle-fill"></i> Login</Link>
 
 
-                <Link to="/register#" className=" d-flex align-items-center gap-1">
+                <Link to="/register" className=" d-flex align-items-center gap-1">
                 <i class="ri-user-fill"></i> Register</Link>
               </div>
             </Col>
@@ -122,6 +121,8 @@ const navLinks = [
       </div>
 
       {/*  main navigation  */}
+
+      
 
       <div className="main__navbar">
         <Container>
