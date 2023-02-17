@@ -33,8 +33,6 @@ const navLinks = [
   
     const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
-
-    
     return (
     <header className="header">
 
@@ -53,15 +51,13 @@ const navLinks = [
 
                <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-             
 
-
-             <Link to="/login" className=" d-flex align-items-center gap-1">
+                <Link to="/login" className=" d-flex align-items-center gap-1">
                 <i class="ri-login-circle-fill"></i> Login</Link>
 
 
                 <Link to="/register" className=" d-flex align-items-center gap-1">
-                <i class="ri-user-fill"></i> Register</Link>
+                <i class="ri-user-fill"></i> SignUp</Link>
               </div>
             </Col>
           </Row>
@@ -121,8 +117,6 @@ const navLinks = [
       </div>
 
       {/*  main navigation  */}
-
-      
 
       <div className="main__navbar">
         <Container>

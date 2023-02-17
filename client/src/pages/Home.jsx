@@ -13,8 +13,6 @@ import BlogList from "../components/UI/BlogList";
 import PaymentMethod from "../components/UI/PaymentMethod";
 import BookingForm from "../components/UI/BookingForm";
 
-
-
 const Home = () => {
     return (
       <Helmet title="Home">
@@ -80,7 +78,6 @@ const Home = () => {
              
             </Col>
           </Row>
-      
 
       <PaymentMethod />
       </Container>
@@ -112,8 +109,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
-
       </Helmet>
   );
 };
