@@ -5,6 +5,7 @@ import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import PaymentMethod from "../components/UI/PaymentMethod";
+
 const BikeDetails = () => {
   const { slug } = useParams();
 
@@ -54,8 +55,8 @@ const BikeDetails = () => {
                 >
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
-                      class="ri-riding-line"
-                      style={{ color: "#f9a826" }}
+                      class="ri-roadster-line"
+                      style={{ color: "#063a16;" }}
                     ></i>{" "}
                     {singleBikeItem.model}
                   </span>
@@ -63,7 +64,7 @@ const BikeDetails = () => {
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
                       class="ri-settings-2-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#063a16;" }}
                     ></i>{" "}
                     {singleBikeItem.automatic}
                   </span>
@@ -71,7 +72,7 @@ const BikeDetails = () => {
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
                       class="ri-timer-flash-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#063a16;" }}
                     ></i>{" "}
                     {singleBikeItem.speed}
                   </span>
@@ -82,25 +83,9 @@ const BikeDetails = () => {
                   style={{ columnGap: "2.8rem" }}
                 >
                   <span className=" d-flex align-items-center gap-1 section__description">
-                    <i class="ri-map-pin-line" style={{ color: "#f9a826" }}></i>{" "}
+                    <i class="ri-map-pin-line" style={{ color: "#063a16" }}></i>{" "}
                     {singleBikeItem.gps}
-                  </span>
-
-                  <span className=" d-flex align-items-center gap-1 section__description">
-                    <i
-                      class="ri-wheelchair-line"
-                      style={{ color: "#f9a826" }}
-                    ></i>{" "}
-                    {singleBikeItem.seatType}
-                  </span>
-
-                  <span className=" d-flex align-items-center gap-1 section__description">
-                    <i
-                      class="ri-building-2-line"
-                      style={{ color: "#f9a826" }}
-                    ></i>{" "}
-                    {singleBikeItem.brand}
-                  </span>
+                  </span>   
                 </div>
               </div>
             </Col>
@@ -111,11 +96,6 @@ const BikeDetails = () => {
                 <BookingForm />
               </div>
             </Col>
-
-
-
-
-
 
             <Col lg="5" className="mt-5">
               <div className="payment__info mt-5">
