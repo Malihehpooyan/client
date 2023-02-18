@@ -8,6 +8,9 @@ const PaymentMethod = () => {
  
 
   return (
+
+
+    
     <section className="payment__method">
       <Container>
         <Row>
