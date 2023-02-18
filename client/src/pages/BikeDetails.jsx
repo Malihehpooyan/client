@@ -55,7 +55,7 @@ const BikeDetails = () => {
                 >
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
-                      class="ri-roadster-line"
+                      class="ri-riding-line"
                       style={{ color: "#063a16;" }}
                     ></i>{" "}
                     {singleBikeItem.model}
